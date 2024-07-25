@@ -5,13 +5,37 @@ body {
     height: 100vh;
 }
 
-body .section{
-    
-}
-
+/* Header Stuff */
 .header {
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    padding-left: 75px;
+    padding-right: 75px;
 }
+
+.subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subheader div {
+    font-size: 24px;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+}
+
 
 .info {
     height: 250px;
