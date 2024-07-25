@@ -1,6 +1,33 @@
 body {
     display: flex;
     flex-direction: column;
+    border: 2px yellow solid;
+    height: 100vh;
+}
+
+body .section{
+    
+}
+
+.header {
+    height: 200px;
+}
+
+.info {
+    height: 250px;
+}
+
+.quote {
+    background-color: lightgray;
+    height: 200px;
+}
+
+.cta {
+    height:150px;
+}
+
+.footer {
+    height: 75px;
 }
 
 .header,.footer {
@@ -10,3 +37,5 @@ body {
 body *{
     border: 2px solid red;
 }
+
+
