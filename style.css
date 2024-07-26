@@ -86,6 +86,16 @@ ul {
 .quote {
     background-color: lightgray;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+}
+
+.quote div {
+    align-self: end;
 }
 
 .cta {
