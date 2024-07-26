@@ -7,18 +7,20 @@ body {
 
 /* Header Stuff */
 .header {
-    height: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
     padding-left: 75px;
     padding-right: 75px;
+    gap: 8px;
 }
 
 .subheader {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .subheader div {
@@ -36,9 +38,34 @@ ul {
     list-style-type: none;
 }
 
+.bottomheader {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.smallbox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.bottomheader button {
+    padding: 10px;
+    border-radius: 12px;
+}
+
+/*Info Section */
 
 .info {
     height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
 }
 
 .quote {
@@ -58,8 +85,10 @@ ul {
     background-color: #1F2937;
 }
 
+
 body *{
     border: 2px solid red;
 }
+
 
 
