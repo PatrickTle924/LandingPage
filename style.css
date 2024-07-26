@@ -66,6 +66,7 @@ ul {
 }
 
 .title {
+    padding-top: 10px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -98,22 +99,49 @@ ul {
     align-self: end;
 }
 
+/*CTA */
+
 .cta {
     height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
 }
+
+.bigb {
+    padding: 20px 50px;
+    background-color: #3882F6;
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.sideb {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+}
+
+/*Footer and Misc*/
 
 .footer {
     height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header,.footer {
     background-color: #1F2937;
 }
 
-
-body *{
-    border: 2px solid red;
-}
 
 
 
